@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  web:
+    build: .  # Build the Dockerfile in the current directory
+    container_name: mystic_recipe
+    ports:
+      - "1117:8080"  # Map port 1337 on the host to port 80 in the container
+    restart: always  # Ensure the container restarts if it stops

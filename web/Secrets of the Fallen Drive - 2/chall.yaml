@@ -1,0 +1,21 @@
+name: Secrets of the Fallen Drive - 2
+categories:
+  - Web
+level: Medium
+dependency: Secrets of the Fallen Drive
+value: Dynamic (200 to 150)
+flag: BUETCTF{P4ul_r3vs3ngin3s_br0k3_Hm@c_syst3m_fl4g_23cr7y}
+description: |-
+  In Noxhaven, Paul's last garage had a few cracks in its security system, 
+  so he’s reinforced the firewall around his prized vault. But there’s still 
+  a way in, and I need that flag for my ride...
+hints:
+  -  What new measures did Paul take to protect his garage's data? (Penalty - 10)
+files:
+  - src: Deployed link and port
+authors:
+  - C0d3HuNt3r
+deploy:
+  web:
+    build: .
+    expose: 2489/tcp

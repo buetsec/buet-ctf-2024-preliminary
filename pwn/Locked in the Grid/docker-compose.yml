@@ -1,0 +1,6 @@
+services:
+  gird:
+    build: .
+    ports:
+      - 1234:5000
+    privileged: true

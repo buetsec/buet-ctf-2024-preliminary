@@ -1,0 +1,29 @@
+# Use the official Python image from the Docker Hub
+FROM python:3.9-slim
+
+# Set the working directory in the container
+WORKDIR /app
+
+# Copy the requirements file (if you have one)
+COPY requirements.txt .
+
+# Install the necessary dependencies
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy the rest of your application code
+COPY . .
+
+# Create /secret directory
+RUN mkdir /secret
+
+# Copy flag.txt to /secret and remove it from /app
+RUN cp flag.html /secret/ && rm flag.html
+
+# Expose the port your app runs on
+EXPOSE 5000
+
+# Set the environment variable for Flask
+ENV FLASK_APP=app.py
+
+# Run the Flask app
+CMD ["flask", "run", "--host=0.0.0.0"]

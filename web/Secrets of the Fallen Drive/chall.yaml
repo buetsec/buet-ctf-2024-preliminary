@@ -1,0 +1,22 @@
+name: Secrets of the Fallen Drive
+categories:
+  - Web
+level: Easy-Medium
+dependency: N/A
+value: Dynamic (150 to 125)
+flag: BUETCTF{N0x_G34rsh1ft_F4llC0d3_420_1337}
+description: |-
+  In Noxhaven, where tech has fallen and the streets are ruled by silent engines 
+  and hidden eyes, whispers tell of Paul Walker’s garage holding a crucial flag. If you 
+  can convince the system that your ride is registered to his exclusive service, 
+  you might unlock this lost key to the city's underground circuit.
+hints:
+  -  Paul’s system knows which cars are registered. Look for how the site tracks its members! (Penalty - 15)
+files:
+  - src: Deployed link and port
+authors:
+  - C0d3HuNt3r
+deploy:
+  web:
+    build: .
+    expose: 2488/tcp

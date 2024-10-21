@@ -1,0 +1,19 @@
+name: Spectrum Shift
+categories:
+  - Forensics
+level: Medium
+dependency: Echoes in the Dark
+value: Dynamic (200 to 150)
+flag: BUETCTF{thr33_c0l0r_r3v3l4t10n_74010c92e9}
+description: |-
+  A new file has emerged in the depths of Noxhaven’s underground—a mysterious 
+  upgrade to the old format(Echoes in the Dark). This one supports three colors and compresses data 
+  with raw binary. However, it's tricky to read, and the resolution is capped 
+  at 256x256 pixels. Can you decode what this file holds?
+hints:
+  - Hint 1: The resolution is stored in two bytes. (Penalty - 10)
+  - Hint 2: The ternary is encoded in raw binary. (Penalty - 10)
+files:
+  - src: chall.nocap
+authors:
+  - C0d3HuNt3r

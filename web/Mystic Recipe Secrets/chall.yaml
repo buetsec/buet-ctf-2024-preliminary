@@ -1,0 +1,23 @@
+name: Mystic Recipe Secrets
+categories:
+  - Web
+level: Easy-Medium
+dependency: N/A
+value: Dynamic (125 to 100)
+flag: BUETCTF{$p3llb00k_of_3nchan73d_c00kies_82ded45e3}
+description: |-
+  The Guild of Culinary Magic entrusted me with their ancient recipe scrolls, 
+  and I’ve set up a magical portal for safe access. You can browse the spells 
+  (or recipes), and even add new ones if you're worthy. It's all sealed with 
+  powerful magic... or is it?
+hints:
+  - Hint 1: Search through all the enchanted scripts carefully (Penalty - 10)
+  - Hint 2: Magical cookies can be altered, but don’t underestimate their simplicity (Penalty - 5)
+files:
+  - src: Deployed link and port
+authors:
+  - C0d3HuNt3r
+deploy:
+  web:
+    build: .
+    expose: 80/tcp

@@ -1,0 +1,13 @@
+name: baby_rev
+categories:
+  - rev
+level: Easy
+dependency: N/A
+value: Dynamic (200 to 100)
+flag: BUETCTF{jrnvfF4OG2xyE3BK2kPIWms}
+description: |-
+  This is as easy as it can get.
+files:
+  - src: ./chal
+authors:
+  - gr007

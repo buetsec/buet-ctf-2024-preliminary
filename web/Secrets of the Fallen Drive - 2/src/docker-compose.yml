@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  drive_two:
+    build: .
+    ports:
+      - "2489:2489"
+    container_name: fallen_drive_secrets_two

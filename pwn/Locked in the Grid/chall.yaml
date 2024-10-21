@@ -1,0 +1,23 @@
+name: Locked in the Grid
+categories:
+  - Misc/PWN
+level: Hard
+dependency: N/A
+value: Dynamic (400 to 175)
+flag: BUETCTF{br34k_fr0m_th3_gr1d_7t3y5x}
+description: |-
+  You managed to escape Noxhaven’s high-security prison once, but luck wasn’t on 
+  your side—you were caught again. This time, they've thrown you into the infamous 
+  Citadel, a place no one has escaped from. The prison’s security is old, but don’t 
+  underestimate it. To break free, you'll need to dig into the past. Sometimes, old 
+  systems hold the key to freedom...
+
+  N.B: The more you look, the more you see
+  N.B: The flag is encoded inside curly braces
+hints:
+  - Hint 1: Have you ever tried reversing a python function without code? (Penalty - 40)
+  - Hint 2: Operations Code may come handy in the process (Penalty - 15)
+files:
+  - src: Deployed link and port
+authors:
+  - C0d3HuNt3r

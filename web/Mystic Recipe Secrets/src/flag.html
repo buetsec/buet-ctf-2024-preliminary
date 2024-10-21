@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Secret</title>
+</head>
+
+<body>
+    <h1>Login as Admin to Add Recipes</h1>
+    <p id="secretIngredient">This is a website for desert lovers, not for hunters. Nevertheless, have this: <br>
+        &#128681
+        &#127988</p>
+
+    <script>
+        const secretRecipe = decodeDelight(fetchCookieJar("hiddenRecipe"));
+        if (secretRecipe !== "")
+            document.getElementById("secretIngredient").innerText = secretRecipe;
+
+        function fetchCookieJar(cookieFlavor) {
+            const cookieFilling = cookieFlavor + "=";
+            const allCookies = decodeURIComponent(document.cookie);
+            const cookieTray = allCookies.split(';');
+
+            for (let i = 0; i < cookieTray.length; i++) {
+                let singleCookie = cookieTray[i].trim();
+                if (singleCookie.indexOf(cookieFilling) === 0) {
+                    return singleCookie.substring(cookieFilling.length);
+                }
+            }
+            return "";
+        }
+
+        function decodeDelight(encodedRecipe) {
+            let finalDish = "";
+            let ingredientArray = encodedRecipe.split("b");
+            ingredientArray.pop();
+            const flavorBits = ingredientArray.map(ingredient => parseInt(ingredient, 10));
+
+            for (let flavorCode of flavorBits) {
+                finalDish += String.fromCharCode(flavorCode);
+            }
+            return finalDish;
+        }
+    </script>
+</body>
+
+</html>

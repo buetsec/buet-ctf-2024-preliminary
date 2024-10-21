@@ -1,0 +1,128 @@
+body {
+    background-color: #e6d6aa;
+    font-family: Fredoka, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+#headerimg {
+    width: 7em;
+    border-radius: 25%;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 5%;
+    grid-area: imgcookie;
+}
+
+header {
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas:
+        "headLeft imgcookie headRight"
+        "sidebar  content    otherside";
+
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 200px 130px;
+    justify-content: center;
+
+    font-weight: lighter;
+    font-family: Indie Flower, cursive;
+    font-size: 180%;
+}
+
+h1.headingTop:nth-of-type(2) {
+    grid-area: headRight;
+    text-align: left;
+    animation: drop2 1100ms ease-out 0.4s backwards;
+}
+
+h1.headingTop:nth-of-type(1) {
+    grid-area: headLeft;
+    text-align: right;
+    animation: drop2 1100ms ease-out 0s;
+}
+
+h1.headingMid {
+    grid-area: content;
+    text-align: center;
+    animation: slideHeading 3000ms ease 2.6s both;
+}
+
+
+.subheadingList {
+    font-size: 1.75rem;
+}
+
+
+#login {
+    display: grid;
+    grid-template-areas:
+        "side content side2"
+        "sideb content2 sideb2";
+    grid-template-columns: 2fr 3fr 2fr;
+    grid-template-rows: 6vh 8vh;
+}
+
+#login input {
+    width: auto;
+    height: 85%;
+    grid-area: content2;
+    margin-top: 1.5vh;
+}
+
+#login input:first-of-type {
+    margin-top: 0;
+    grid-area: content;
+}
+
+@keyframes drop2 {
+
+    0% {
+        position: relative;
+        top: -25vh;
+        display: block;
+    }
+
+    78% {
+        top: 0px
+    }
+
+    90% {
+        top: -5vh;
+    }
+
+    99% {
+        top: 0px;
+        border: none;
+        display: block;
+        position: relative;
+    }
+
+    100% {
+        position: static;
+    }
+
+}
+
+@keyframes slideHeading {
+    0% {
+        position: relative;
+        left: -65vw;
+    }
+
+    60% {
+        left: 15vw;
+    }
+
+    70% {
+        left: -10vw;
+        text-decoration: none;
+    }
+
+    100% {
+        left: 0vw;
+        position: relative;
+        text-decoration: underline;
+    }
+}

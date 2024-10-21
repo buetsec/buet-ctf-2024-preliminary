@@ -1,0 +1,6 @@
+services:
+  license:
+    build: .
+    ports:
+      - 1740:5000
+    privileged: true

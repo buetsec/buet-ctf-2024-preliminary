@@ -1,0 +1,13 @@
+name: license
+categories:
+  - rev
+level: Medium
+dependency: N/A
+value: Dynamic (300 to 100)
+flag: BUETCTF{GRExipe3756rGASYRD9DiZS}
+description: |-
+  License please.
+files:
+  - src: ./chal.zip
+authors:
+  - gr007

@@ -1,0 +1,6 @@
+services:
+  proof:
+    build: .
+    ports:
+      - 1310:5000
+    privileged: true

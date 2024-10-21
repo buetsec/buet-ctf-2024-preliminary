@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BUET CTF Flag</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Custom styles */
+    body {
+      background: linear-gradient(135deg, #6e8efb, #a777e3);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-family: 'Arial', sans-serif;
+    }
+
+    .flag-container {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4);
+      text-align: center;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    .flag-container h1 {
+      font-size: 3rem;
+      font-weight: bold;
+      margin-bottom: 20px;
+      background: -webkit-linear-gradient(#f39c12, #e74c3c);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .flag {
+      font-size: 1.5rem;
+      padding: 15px;
+      background-color: #111;
+      border-radius: 10px;
+      border: 2px solid #ff6347;
+      display: inline-block;
+      margin-top: 20px;
+      color: #f1c40f;
+    }
+
+    .back-btn {
+      margin-top: 30px;
+      text-decoration: none;
+      color: white;
+      font-size: 1.2rem;
+      padding: 10px 20px;
+      border-radius: 30px;
+      border: 2px solid #fff;
+      background-color: transparent;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .back-btn:hover {
+      background-color: #fff;
+      color: #333;
+      text-decoration: none;
+    }
+
+    @keyframes fadeIn {
+      0% { opacity: 0; transform: scale(0.9); }
+      100% { opacity: 1; transform: scale(1); }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="flag-container">
+    <h1>Congratulations!</h1>
+    <p class="lead">You found the flag!</p>
+    <div class="flag" id="flag">
+      <!-- The flag will be injected here by JavaScript -->
+    </div>
+    <a href="/" class="back-btn mt-3">Back to Home</a>
+  </div>
+
+  <script>
+
+    const baseFlag = 'BUETCTF{F4ke_fl4g';
+    const fullFlag = baseFlag +  '}';
+
+    // Inject the flag into the HTML
+    document.getElementById('flag').textContent = fullFlag;
+     // Function to remove the button with the class 'mybutton'ake
+     function removeButton() {
+      const button = document.querySelector('.mybutton');
+      if (button) {
+        button.remove(); // Remove the button from the DOM
+      }
+    }
+    removeButton()
+    // Call the function to remove the button after 3 seconds (for demo purposes)
+    setTimeout(removeButton, 3000); 
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

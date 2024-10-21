@@ -1,0 +1,6 @@
+services:
+  srope:
+    build: .
+    ports:
+      - 7331:5000
+    privileged: true

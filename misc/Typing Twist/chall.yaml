@@ -1,0 +1,19 @@
+name: Typing Twist
+categories:
+  - Misc
+level: Easy
+dependency: N/A
+value: 100
+flag: BUETCTF{Cr4ck1n6_th3_L4Y0UT_w4s_n0t_s0_h4rd_b68cc8a94}
+description: |-
+  I just picked up a custom cyber-deck keyboard from a sketchy chor bazaar. 
+  It’s sleek, but when I tried to type, everything came out as nonsense. 
+  After messing with it for a while, I realized there’s something special here, 
+  I just need to figure out how it works.
+hints:
+  - The keyboard isn't malfunctioning, just unique—learning its rhythm is key.
+  - The layout seems... unconventional, may be compared to what you're used to.
+files:
+  - src: enc.txt
+authors:
+  - C0d3HuNt3r

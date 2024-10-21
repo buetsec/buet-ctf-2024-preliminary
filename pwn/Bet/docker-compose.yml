@@ -1,0 +1,6 @@
+services:
+  bet:
+    build: .
+    ports:
+      - 1337:5000
+    privileged: true

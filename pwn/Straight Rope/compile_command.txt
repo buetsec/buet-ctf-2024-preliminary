@@ -1,0 +1,1 @@
+gcc -std=c90 -no-pie -Wl,-z,norelro -fno-stack-protector -m32 -o chall chall.c

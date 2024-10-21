@@ -1,0 +1,10 @@
+version: '3.8'  # Specify the version of Docker Compose
+
+services:
+  flask-app:
+    build:
+      context: .  # Build the Dockerfile in the current directory
+    ports:
+      - "5000:5000"  # Map port 5000 on the host to port 5000 in the container
+    environment:
+      - FLASK_ENV=development  # Set the environment to development

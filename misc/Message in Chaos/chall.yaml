@@ -1,0 +1,19 @@
+name: Message in Chaos
+categories:
+  - Misc
+level: Easy
+dependency: N/A
+value: 100
+flag: BUETCTF{C0nspir4cY_1n_G1bb3r1sh_F1le_D1sC0v3r3d_2f6ea}
+description: |-
+  You received a file from a friend, but when you opened it, the contents 
+  appeared to be nothing but gibberish. Your friend became defensive when 
+  you mentioned it. However, you suspect that there might be hidden information 
+  within the chaotic text. Can you uncover the secret behind this seemingly 
+  random data?
+hints:
+  - Does each character appear the same number of times in the file?
+files:
+  - src: enc.buet
+authors:
+  - C0d3HuNt3r

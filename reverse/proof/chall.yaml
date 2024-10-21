@@ -1,0 +1,13 @@
+name: proof
+categories:
+  - rev
+level: Medium
+dependency: N/A
+value: Dynamic (350 to 100)
+flag: BUETCTF{G6VjZel2DYbziar516JWgWT}
+description: |-
+  Prove that you can do it
+files:
+  - src: ./chal.zip
+authors:
+  - gr007

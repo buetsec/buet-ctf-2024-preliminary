@@ -1,0 +1,615 @@
+
+0.	[0x97]RESUME
+	 [0x0]None
+
+2.	[0x64]LOAD_CONST
+	 [0x1]79
+
+4.	[0x7d]STORE_FAST
+	 [0x1]Storing in val
+
+6.	[0x64]LOAD_CONST
+	 [0x2]{7ctLj4
+
+8.	[0x7d]STORE_FAST
+	 [0x2]Storing in p1
+
+10.	[0x64]LOAD_CONST
+	 [0x3]FSqgAcpFMrU3qhfu1jNpf
+
+12.	[0x64]LOAD_CONST
+	 [0x0]None
+
+14.	[0x64]LOAD_CONST
+	 [0x0]None
+
+16.	[0x64]LOAD_CONST
+	 [0x4]-1
+
+18.	[0x85]BUILD_SLICE
+	 [0x3]None
+
+20.	[0x19]BINARY_SUBSCR
+
+21.	[0x0]CACHE
+
+22.	[0x0]CACHE
+
+23.	[0x0]CACHE
+
+24.	[0x0]CACHE
+
+25.	[0x0]CACHE
+
+26.	[0x0]CACHE
+
+27.	[0x0]CACHE
+
+28.	[0x0]CACHE
+
+29.	[0x0]CACHE
+
+30.	[0x7d]STORE_FAST
+	 [0x3]Storing in p2
+
+32.	[0x64]LOAD_CONST
+	 [0x5]
+
+34.	[0x7d]STORE_FAST
+	 [0x4]Storing in p3
+
+36.	[0x64]LOAD_CONST
+	 [0x6]16
+
+38.	[0x7d]STORE_FAST
+	 [0x5]Storing in x
+
+40.	[0x64]LOAD_CONST
+	 [0x7]b'\\)\\umQDqpk`h(jL'
+
+42.	[0x44]GET_ITER
+
+43.	[0x0]CACHE
+
+44.	[0x5d]FOR_ITER
+	 [0x1c]None
+
+46.	[0x7d]STORE_FAST
+	 [0x6]Storing in c
+
+48.	[0x7c]LOAD_FAST
+	 [0x4]Retrieving from p3
+
+50.	[0x74]LOAD_GLOBAL
+	 [0x1]ord
+
+52.	[0x0]CACHE
+
+53.	[0x0]CACHE
+
+54.	[0x0]CACHE
+
+55.	[0x0]CACHE
+
+56.	[0x0]CACHE
+
+57.	[0x0]CACHE
+
+58.	[0x0]CACHE
+
+59.	[0x0]CACHE
+
+60.	[0x0]CACHE
+
+61.	[0x0]CACHE
+
+62.	[0x7c]LOAD_FAST
+	 [0x6]Retrieving from c
+
+64.	[0x7c]LOAD_FAST
+	 [0x5]Retrieving from x
+
+66.	[0x7a]BINARY_OP
+	 [0xc]None
+
+68.	[0x0]CACHE
+
+69.	[0x0]CACHE
+
+70.	[0xa6]PRECALL
+	 [0x1]None
+
+72.	[0x0]CACHE
+
+73.	[0x0]CACHE
+
+74.	[0xab]CALL
+	 [0x1]None
+
+76.	[0x0]CACHE
+
+77.	[0x0]CACHE
+
+78.	[0x0]CACHE
+
+79.	[0x0]CACHE
+
+80.	[0x0]CACHE
+
+81.	[0x0]CACHE
+
+82.	[0x0]CACHE
+
+83.	[0x0]CACHE
+
+84.	[0x7a]BINARY_OP
+	 [0xd]None
+
+86.	[0x0]CACHE
+
+87.	[0x0]CACHE
+
+88.	[0x7d]STORE_FAST
+	 [0x4]Storing in p3
+
+90.	[0x7c]LOAD_FAST
+	 [0x5]Retrieving from x
+
+92.	[0x64]LOAD_CONST
+	 [0x8]1
+
+94.	[0x7a]BINARY_OP
+	 [0xd]None
+
+96.	[0x0]CACHE
+
+97.	[0x0]CACHE
+
+98.	[0x7d]STORE_FAST
+	 [0x5]Storing in x
+
+100.	[0x8c]JUMP_BACKWARD
+	 [0x1d]None
+
+102.	[0x7c]LOAD_FAST
+	 [0x0]Retrieving from key
+
+104.	[0x64]LOAD_CONST
+	 [0x8]1
+
+106.	[0x19]BINARY_SUBSCR
+
+107.	[0x0]CACHE
+
+108.	[0x0]CACHE
+
+109.	[0x0]CACHE
+
+110.	[0x0]CACHE
+
+111.	[0x0]CACHE
+
+112.	[0x0]CACHE
+
+113.	[0x0]CACHE
+
+114.	[0x0]CACHE
+
+115.	[0x0]CACHE
+
+116.	[0x7d]STORE_FAST
+	 [0x0]Storing in key
+
+118.	[0x74]LOAD_GLOBAL
+	 [0x1]ord
+
+120.	[0x0]CACHE
+
+121.	[0x0]CACHE
+
+122.	[0x0]CACHE
+
+123.	[0x0]CACHE
+
+124.	[0x0]CACHE
+
+125.	[0x0]CACHE
+
+126.	[0x0]CACHE
+
+127.	[0x0]CACHE
+
+128.	[0x0]CACHE
+
+129.	[0x0]CACHE
+
+130.	[0x74]LOAD_GLOBAL
+	 [0x0]chr
+
+133.	[0x0]CACHE
+
+134.	[0x0]CACHE
+
+135.	[0x0]CACHE
+
+136.	[0x0]CACHE
+
+137.	[0x0]CACHE
+
+138.	[0x0]CACHE
+
+139.	[0x0]CACHE
+
+140.	[0x0]CACHE
+
+141.	[0x0]CACHE
+
+142.	[0x7c]LOAD_FAST
+	 [0x0]Retrieving from key
+
+144.	[0xa6]PRECALL
+	 [0x1]None
+
+146.	[0x0]CACHE
+
+147.	[0x0]CACHE
+
+148.	[0xab]CALL
+	 [0x1]None
+
+150.	[0x0]CACHE
+
+151.	[0x0]CACHE
+
+152.	[0x0]CACHE
+
+153.	[0x0]CACHE
+
+154.	[0x0]CACHE
+
+155.	[0x0]CACHE
+
+156.	[0x0]CACHE
+
+157.	[0x0]CACHE
+
+158.	[0x74]LOAD_GLOBAL
+	 [0x0]chr
+
+161.	[0x0]CACHE
+
+162.	[0x0]CACHE
+
+163.	[0x0]CACHE
+
+164.	[0x0]CACHE
+
+165.	[0x0]CACHE
+
+166.	[0x0]CACHE
+
+167.	[0x0]CACHE
+
+168.	[0x0]CACHE
+
+169.	[0x0]CACHE
+
+170.	[0x7c]LOAD_FAST
+	 [0x0]Retrieving from key
+
+172.	[0xa6]PRECALL
+	 [0x1]None
+
+174.	[0x0]CACHE
+
+175.	[0x0]CACHE
+
+176.	[0xab]CALL
+	 [0x1]None
+
+178.	[0x0]CACHE
+
+179.	[0x0]CACHE
+
+180.	[0x0]CACHE
+
+181.	[0x0]CACHE
+
+182.	[0x0]CACHE
+
+183.	[0x0]CACHE
+
+184.	[0x0]CACHE
+
+185.	[0x0]CACHE
+
+186.	[0x7a]BINARY_OP
+	 [0x2]None
+
+188.	[0x0]CACHE
+
+189.	[0x0]CACHE
+
+190.	[0x64]LOAD_CONST
+	 [0x9]87
+
+192.	[0x7a]BINARY_OP
+	 [0x5]None
+
+194.	[0x0]CACHE
+
+195.	[0x0]CACHE
+
+196.	[0xa6]PRECALL
+	 [0x1]None
+
+198.	[0x0]CACHE
+
+199.	[0x0]CACHE
+
+200.	[0xab]CALL
+	 [0x1]None
+
+202.	[0x0]CACHE
+
+203.	[0x0]CACHE
+
+204.	[0x0]CACHE
+
+205.	[0x0]CACHE
+
+206.	[0x0]CACHE
+
+207.	[0x0]CACHE
+
+208.	[0x0]CACHE
+
+209.	[0x0]CACHE
+
+210.	[0x7d]STORE_FAST
+	 [0x7]Storing in p4
+
+212.	[0x64]LOAD_CONST
+	 [0x5]
+
+214.	[0x7d]STORE_FAST
+	 [0x8]Storing in p5
+
+216.	[0x64]LOAD_CONST
+	 [0xa]ALs[
+
+218.	[0x44]GET_ITER
+
+219.	[0x0]CACHE
+
+220.	[0x5d]FOR_ITER
+	 [0x2e]None
+
+222.	[0x7d]STORE_FAST
+	 [0x6]Storing in c
+
+224.	[0x74]LOAD_GLOBAL
+	 [0x0]chr
+
+227.	[0x0]CACHE
+
+228.	[0x0]CACHE
+
+229.	[0x0]CACHE
+
+230.	[0x0]CACHE
+
+231.	[0x0]CACHE
+
+232.	[0x0]CACHE
+
+233.	[0x0]CACHE
+
+234.	[0x0]CACHE
+
+235.	[0x0]CACHE
+
+236.	[0x7c]LOAD_FAST
+	 [0x6]Retrieving from c
+
+238.	[0xa6]PRECALL
+	 [0x1]None
+
+240.	[0x0]CACHE
+
+241.	[0x0]CACHE
+
+242.	[0xab]CALL
+	 [0x1]None
+
+244.	[0x0]CACHE
+
+245.	[0x0]CACHE
+
+246.	[0x0]CACHE
+
+247.	[0x0]CACHE
+
+248.	[0x0]CACHE
+
+249.	[0x0]CACHE
+
+250.	[0x0]CACHE
+
+251.	[0x0]CACHE
+
+252.	[0x7d]STORE_FAST
+	 [0x9]Storing in enc
+
+254.	[0x7c]LOAD_FAST
+	 [0x9]Retrieving from enc
+
+256.	[0x64]LOAD_CONST
+	 [0xb]69
+
+258.	[0x7a]BINARY_OP
+	 [0xa]None
+
+260.	[0x0]CACHE
+
+261.	[0x0]CACHE
+
+262.	[0x64]LOAD_CONST
+	 [0xc]128
+
+264.	[0x7a]BINARY_OP
+	 [0x6]None
+
+266.	[0x0]CACHE
+
+267.	[0x0]CACHE
+
+268.	[0x7d]STORE_FAST
+	 [0xa]Storing in sub
+
+270.	[0x7c]LOAD_FAST
+	 [0x8]Retrieving from p5
+
+272.	[0x74]LOAD_GLOBAL
+	 [0x1]ord
+
+274.	[0x0]CACHE
+
+275.	[0x0]CACHE
+
+276.	[0x0]CACHE
+
+277.	[0x0]CACHE
+
+278.	[0x0]CACHE
+
+279.	[0x0]CACHE
+
+280.	[0x0]CACHE
+
+281.	[0x0]CACHE
+
+282.	[0x0]CACHE
+
+283.	[0x0]CACHE
+
+284.	[0x7c]LOAD_FAST
+	 [0xa]Retrieving from sub
+
+286.	[0x7c]LOAD_FAST
+	 [0x1]Retrieving from val
+
+288.	[0x7a]BINARY_OP
+	 [0xc]None
+
+290.	[0x0]CACHE
+
+291.	[0x0]CACHE
+
+292.	[0xa6]PRECALL
+	 [0x1]None
+
+294.	[0x0]CACHE
+
+295.	[0x0]CACHE
+
+296.	[0xab]CALL
+	 [0x1]None
+
+298.	[0x0]CACHE
+
+299.	[0x0]CACHE
+
+300.	[0x0]CACHE
+
+301.	[0x0]CACHE
+
+302.	[0x0]CACHE
+
+303.	[0x0]CACHE
+
+304.	[0x0]CACHE
+
+305.	[0x0]CACHE
+
+306.	[0x7a]BINARY_OP
+	 [0xd]None
+
+308.	[0x0]CACHE
+
+309.	[0x0]CACHE
+
+310.	[0x7d]STORE_FAST
+	 [0x8]Storing in p5
+
+312.	[0x8c]JUMP_BACKWARD
+	 [0x2f]None
+
+314.	[0x64]LOAD_CONST
+	 [0xd]L}
+
+316.	[0x7d]STORE_FAST
+	 [0xb]Storing in p6
+
+318.	[0x7c]LOAD_FAST
+	 [0x2]Retrieving from p1
+
+320.	[0x7c]LOAD_FAST
+	 [0x3]Retrieving from p2
+
+322.	[0x7a]BINARY_OP
+	 [0x0]None
+
+324.	[0x0]CACHE
+
+325.	[0x0]CACHE
+
+326.	[0x7c]LOAD_FAST
+	 [0x4]Retrieving from p3
+
+328.	[0x7a]BINARY_OP
+	 [0x0]None
+
+330.	[0x0]CACHE
+
+331.	[0x0]CACHE
+
+332.	[0x7c]LOAD_FAST
+	 [0x7]Retrieving from p4
+
+334.	[0x7a]BINARY_OP
+	 [0x0]None
+
+336.	[0x0]CACHE
+
+337.	[0x0]CACHE
+
+338.	[0x7c]LOAD_FAST
+	 [0x8]Retrieving from p5
+
+340.	[0x7a]BINARY_OP
+	 [0x0]None
+
+342.	[0x0]CACHE
+
+343.	[0x0]CACHE
+
+344.	[0x7c]LOAD_FAST
+	 [0xb]Retrieving from p6
+
+346.	[0x7a]BINARY_OP
+	 [0x0]None
+
+348.	[0x0]CACHE
+
+349.	[0x0]CACHE
+
+350.	[0x7d]STORE_FAST
+	 [0xc]Storing in flag
+
+352.	[0x64]LOAD_CONST
+	 [0xe]{8hHVpauQQYxfSCQodUoBn8uZWY9Pi952QC9WP13oDpQNt9cswHJxdBbadrY}
+
+354.	[0x53]RETURN_VALUE
+
+355.	[0x0]CACHE

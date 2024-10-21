@@ -1,0 +1,18 @@
+name: Echoes in the Dark
+categories:
+  - Forensics
+level: Easy
+dependency: N/A
+value: Dynamic (100 to 75)
+flag: BUETCTF{7h3_1m4g3_15_c13@r_47ac28_a939b}
+description: |-
+  A mysterious .nocap file has surfaced in Noxhaven, a relic from before The Fall. 
+  The tool to view it is lost, but whispers suggest it holds crucial information. 
+  The file contains only black-and-white data. Can you figure out what it reveals?
+hints:
+  - Hint 1: Remember, .nocap files are binary--they only represent black or white pixels. (Free Hint)
+  - Hint 2: Focus on the first two numbers in the file--they might tell you something crucial. (Penalty - 10)
+files:
+  - src: chall.nocap
+authors:
+  - C0d3HuNt3r

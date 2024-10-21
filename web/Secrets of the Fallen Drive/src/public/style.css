@@ -1,0 +1,37 @@
+.page {
+    background-color: #529be8;
+    padding: 30px;
+    font-family: sans-serif;
+}
+
+.content {
+    margin: 0 auto 0 auto;
+    width: 70%;
+}
+
+.action {
+    display: block;
+    margin: 0 auto 0 auto;
+    padding: 4px;
+    text-align: center;
+}
+
+.action button {
+    border: 2px solid blue;
+    background-color: yellow;
+    color: blue;
+    padding: 8px;
+    font-size: 1.5em;
+    font-family: serif;
+}
+
+.card-container {
+    margin: 60px auto 10px auto;
+}
+
+.card img {
+    margin: 10px auto 10px auto;
+    border: 4px solid #f0da12;
+    height: 350px;
+    display: block;
+}

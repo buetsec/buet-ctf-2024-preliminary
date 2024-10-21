@@ -1,0 +1,6 @@
+services:
+  descriptor:
+    build: .
+    ports:
+      - 1347:5000
+    privileged: true
