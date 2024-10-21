@@ -5,9 +5,9 @@
 
 who created this image ?
 
-**File:** inside.jpg
+**File:** buet_CTF.jpg
 
-**Flag:** `BUETCTF{Steganography_is_the_technique_of_hiding_data_within_an_ordinary}`
+**Flag:** `BUETCTF{m3ta_data_ch3ck_d0ne}`
 
 # Solve
 
